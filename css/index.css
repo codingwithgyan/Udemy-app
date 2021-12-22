@@ -142,3 +142,18 @@ h6 {
 .creator {
   margin-top: 10px;
 }
+.category {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-gap: 40px;
+}
+.center {
+  text-align: center;
+}
+.sub_category {
+  cursor: pointer;
+}
+.sub_category:hover {
+  transform: scale(1.05, 1.05);
+  transition: transform 0.3s ease-in-out;
+}
